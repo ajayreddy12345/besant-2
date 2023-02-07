@@ -10,7 +10,7 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('build') {
       steps {
         nodejs('my-node') {
           sh 'ng build '
